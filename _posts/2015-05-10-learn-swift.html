@@ -1,0 +1,64 @@
+wift 数据类型
+标签（空格分隔）： swift 数据类型
+
+---
+
+## 整形
+### 1. Integer
+* 有符号
+* 无符号
+* int **默认字面量**/int8/int16/int32/int64
+
+整形字面量可以用使用十进制、二进制(_**前缀0b**_)、八进制(_**前缀0o**_)、十六进制(_**前缀0x**_)。也可以添加多余的0或者下划线用于对齐。
+```
+let decimalInteger = 00_17        // 17 in decimal notaion, use 0 and _ 
+let binaryInteger = 0b10001       // 17 in binary notation
+let octalInteger = 0o21           // 17 in octal notation
+let hexadecimalInteger = 0x11     // 17 in hexadecimal notation”
+```
+
+### 2. Float point
++ Float
++ Double **默认字面量**
+
+浮点型自面量可以使用十进制或者十六进制(_**前缀0x**_),还有一个可选的指数部分 -- 十进制用 e/E，十六进制用 p/P. 还可以添加多余的0或者_ 增加可读性.
+
+十进制：
+```
+1.25e2 means 1.25 × 10^2, or 125.0.
+1.25e-2 means 1.25 × 10^-2, or 0.0125.
+```
+十六进制：
+```
+0xFp2 means 15 × 22, or 60.0.
+0xFp-2 means 15 × 2-2, or 3.75.
+```
+
+```
+let decimalDouble = 12.1875
+let exponentDouble = 1.21875e1
+let hexadecimalDouble = 0xC.3p0
+```
+
+### 3. 布尔型
+
+
+### 4. 字符型
+ - Character
+ - String 
+
+### 5. 集合类型
+* Array
+* Dictionary
+
+### 6. 元组
+
+### 7. 可选型
+ 
+
+
+
+
+
+
+
